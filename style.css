@@ -1,0 +1,150 @@
+input[type="text"],
+input[name="confirm_pass"],
+input[type="email"],
+textarea[type="text"],select {
+    width: 40%;
+    padding: 12px 20px;
+    margin: 6px 0px  ;
+  
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+ display: inline-block;
+ 
+}
+
+ label {
+       
+        width: 150px;
+        -ms-text-autospace: var(12px);
+      }
+     
+     .pwd-container > span{
+        
+        display: inline-block;
+     
+    
+        margin-left: 20px;
+        text-align:right;
+        
+     }
+     input[name="password"]{
+         
+      
+      
+         text-align: right;
+         width: 40%;
+         padding: 12px 20px;
+         margin-left: 60px;
+     }
+     .submit{
+         padding: 12px 20px;
+         padding-left: 80px;
+         font-size: 20px;
+     }
+   
+    .multiselect {
+        width: 300px;
+        margin-left: 350px;
+      }
+      
+      .selectBox {
+        position: relative;
+      }
+      
+      .selectBox select {
+        width: 370px;
+       
+      }
+      
+      .overSelect {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+      }
+      #checkboxes {
+        display: none;
+        border: 1px #dadada solid;
+      }
+    
+      
+      #checkboxes label {
+        display: block;
+      }
+      
+      #checkboxes label:hover {
+        background-color: #1e90ff;
+      }
+     #clock {
+        width: 370px;
+
+      }
+      .center {
+        display: block;
+        margin-left:480px ;
+        
+        width: 40%;
+        height: 250px;
+      }
+     
+      /* Split the screen in half */
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+/* Split the screen in half */
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+/* Control the left side */
+.left {
+  left: 0;
+  
+}
+
+/* Control the right side */
+.right {
+  right: 0;
+ 
+}
+
+/* If you want the content centered horizontally and vertically */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/* Style the image inside the centered container, if needed */
+.centered img {
+  width: 60%;
+ 
+}
+
+.Dialog {
+ 
+  width: 400px;
+    height: 400px;
+    background-color: lightblue;
+    border-radius: 10px;
+    border: 3px solid grey;
+    position: absolute;
+    cursor: move;
+  
+}
